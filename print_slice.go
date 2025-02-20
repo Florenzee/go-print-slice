@@ -1,6 +1,8 @@
 package go_print_slice
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func PrintSlice(slice []int) {
 	for i := 0; i < len(slice); i++ {
@@ -12,7 +14,7 @@ func PrintSlice(slice []int) {
 func PrintSlice2(slice [][]int) {
 	for i := 0; i < len(slice); i++ {
 		for j := 0; j < len(slice[i]); j++ {
-			fmt.Print(slice[i][j], " ")
+			fmt.Print(slice[i][j], "\t")
 		}
 		fmt.Println()
 	}
