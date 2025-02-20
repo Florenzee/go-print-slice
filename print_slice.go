@@ -14,7 +14,7 @@ func PrintSlice2(slice [][]int) {
 		for j := i + 1; j < len(slice); j++ {
 			fmt.Print(slice[i][j], " ")
 		}
-		fmt.Println(slice[i], " ")
+		fmt.Println()
 	}
-
+	fmt.Println()
 }
